@@ -36,7 +36,7 @@
           </ul>
           <div>
             <a href="#" class="exp"><font color="#C1DCEA">Experimente de graça</font></a>
-            <a href="#" class="busca"><img src="images/lupa.svg" /></a>
+            <a href="#" id="idBusca"><img src="images/lupa.svg" /></a>
             <a href="#" class="globo"><img src="images/idioma.svg" /></a>
             <a href="#" class="idioma">PT</a>
             <a href="#" class="user"><img src="images/perfil.svg" /></a>
@@ -64,7 +64,7 @@
             <p id="ou">ou</p>
             <div id="traco-direita"></div>
           </div>
-          <a href="#" id="teste">Comece já o seu teste grátis de <br/>30 dias</a>
+          <a href="#">Comece já o seu teste grátis de <br/>30 dias</a>
         </div>
         <p>
           *Após 30 dias, o Amazon Prime é renovado automaticamente por R$
@@ -108,11 +108,11 @@
     </div>
 
     <script type="text/javascript" charset="utf-8">
-      let idBusca = document.getElementsByClassName('busca');
+      let idBusca = document.getElementById('idBusca');
       let buscar = document.getElementById('buscar');
       let home = document.getElementById('home');
 
-      teste.addEventListener("click", fnSearch);
+      idBusca.addEventListener("click", fnSearch);
 
       function fnSearch(){
           buscar.style.display = 'block';
