@@ -312,7 +312,7 @@ p{
   align-items: center;
 }
 
-input{
+#input-search{
   margin-top: 50px;
   margin-left: 550px;
   width: 100%;
@@ -326,7 +326,7 @@ input{
   border: 1px solid rgba(255, 255, 255, 0.609);
 }
 
-button{
+#button-search{
   background: #1f3042;
   border: none;
   border-radius: 60px;

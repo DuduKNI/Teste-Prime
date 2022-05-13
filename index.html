@@ -36,7 +36,7 @@
           </ul>
           <div>
             <a href="#" class="exp"><font color="#C1DCEA">Experimente de graça</font></a>
-            <!-- <a href="search.html" id="idBusca" class="busca"><img src="images/lupa.svg" /></a> -->
+            <a href="#" class="busca"><img src="images/lupa.svg" /></a>
             <a href="#" class="globo"><img src="images/idioma.svg" /></a>
             <a href="#" class="idioma">PT</a>
             <a href="#" class="user"><img src="images/perfil.svg" /></a>
@@ -84,8 +84,8 @@
 
     <div id="buscar">
       <div class="search">
-        <input type="text" name="busca" value="" />
-        <button><img src="images/lupa.svg" /></button>
+        <input type="text" name="busca" value="" id="input-search"/>
+        <button id="button-search"><img src="images/lupa.svg" /></button>
       </div>
       <ul></ul>
 
@@ -108,7 +108,7 @@
     </div>
 
     <script type="text/javascript" charset="utf-8">
-      let teste = document.getElementById('teste');
+      let idBusca = document.getElementsByClassName('busca');
       let buscar = document.getElementById('buscar');
       let home = document.getElementById('home');
 
@@ -152,6 +152,6 @@
       })
     </script>
 
-    <script type="text/javascript" src="/Projeto-Web/login.js"></script>
+    <script type="text/javascript" src="login.js"></script>
   </body>
 </html>
