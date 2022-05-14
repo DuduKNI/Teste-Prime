@@ -337,7 +337,7 @@ p{
   border-radius: 60px;
   padding: 10px 20px;
   margin-top: 10px;
-  margin-left: 550px;
+  /* margin-left: 550px; */
   border: 1px solid rgba(255, 255, 255, 0.609);
 }
 
@@ -354,7 +354,7 @@ p{
   background: #1f3042;
   width: 230px;
   height: 400px;
-  margin-top: 30px;
+  margin-top: 200px;
   list-style: none;
   font-size: 17px;
   font-weight: 400;
@@ -379,6 +379,7 @@ p{
 
 .title{
   word-wrap: normal;
+  text-align: center;
 }
 
 .genres{
